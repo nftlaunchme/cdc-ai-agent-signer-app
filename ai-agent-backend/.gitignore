@@ -1,0 +1,7 @@
+# ai-agent-backend/.gitignore
+
+node_modules/
+dist/
+.env
+logs/
+*.log

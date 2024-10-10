@@ -1,0 +1,59 @@
+/* src/components/Chat.css */
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.wallet-connect {
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.chat-message.user .chat-message-content {
+  background-color: #d1e7dd;
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.chat-message.agent .chat-message-content {
+  background-color: #f8d7da;
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chat-input button {
+  margin-left: 8px;
+  padding: 8px 16px;
+}
